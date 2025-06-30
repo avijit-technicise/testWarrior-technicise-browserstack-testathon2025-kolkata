@@ -1,1 +1,0 @@
-# testathon2025-kolkata-browserstack-technicise

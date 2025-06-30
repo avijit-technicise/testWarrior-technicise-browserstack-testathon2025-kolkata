@@ -1,0 +1,103 @@
+Test Case ID,Title,Folder ID,Folder Path,State,Owner,Priority,Type of Test Case,Automation Status,Description,Preconditions,Template,Steps,Expected Result,Issues,Tags,Attachments,Created At,Created By,Last Updated At,Last Updated By,Project Name,Test Case URL
+TC-101,Login with incorrect password,11213069,User Account Management,Active,Avijit Dhar,Critical,Functional,Not Automated,"Verify that the system displays an appropriate error message when a user
+attempts to log in with an incorrect password.
+
+","1\. User account must exist with a known username and password in the
+system.
+
+",Steps,"Navigate to the Signin page of the application
+<a>https://kolkata.bugbash.live/signin.</a>
+
+","User is directed to the Signin page, where the username and password
+fields are visible.
+
+","","AI Generated,AI Generated Details","",06/28/2025 06:20:25,Avijit Dhar,06/28/2025 06:23:00,Avijit Dhar,Kolkata Testathon Technicise2025,https://test-management.browserstack.com/projects/2069044/folder/11213069/test-cases/37464880
+,,,,,,,,,,,,"Enter a valid username in the username field \""demouser\"".
+
+","The valid username is entered into the username field.
+
+",,,,,,,,,
+,,,,,,,,,,,,"Enter an incorrect password in the password field \""temp12\"".
+
+","The incorrect password is entered into the password field.
+
+",,,,,,,,,
+,,,,,,,,,,,,"Click on the \'Sign In\' button.
+
+","The system processes the login attempt and checks the entered
+credentials against the stored values.
+
+",,,,,,,,,
+,,,,,,,,,,,,"Error message \""Invalid Password\"" is being shown to the user
+
+","The user receives an error message \""Invalid Password\"" indicating that
+the password is incorrect and is prompted to try again. The user remains
+on the login page.
+
+",,,,,,,,,
+TC-100,Signin with valid details,11213069,User Account Management,Active,Avijit Dhar,Critical,Functional,Not Automated,"Verify that a user can successfully sign in using valid credentials.
+
+","1\. The application must be installed and accessible.2. The application
+must have a functioning login interface.3. A user account with valid
+login credentials must exist in the system.4. An active internet
+connection must be available (if required for signing in).
+
+",Steps,"Navigate to the homepage of the application.
+
+","The homepage is displayed with link/button to sign in.
+
+","","AI Generated,AI Generated Details","",06/28/2025 06:14:54,Avijit Dhar,06/28/2025 06:42:57,Avijit Dhar,Kolkata Testathon Technicise2025,https://test-management.browserstack.com/projects/2069044/folder/11213069/test-cases/37464764
+,,,,,,,,,,,,"Click on the \'Sign In\' button and reach the signin page
+<a>https://kolkata.bugbash.live/signin.</a>
+
+","The Sign In page is displayed with fields for email and password.
+
+",,,,,,,,,
+,,,,,,,,,,,,"Enter a valid username in the username field \""demouser\"".
+
+","The username is accepted with no validation errors.
+
+",,,,,,,,,
+,,,,,,,,,,,,"Enter the correct password \""testingisfun99\"" corresponding to the
+username in the password field.
+
+","The password is accepted with no validation errors.
+
+",,,,,,,,,
+,,,,,,,,,,,,"Click on the \'Sign In\' button.
+
+","User is successfully logged into the account and redirected to the user
+dashboard or home page.
+
+",,,,,,,,,
+,,,,,,,,,,,,"Verify that the user\'s name or user-specific information is displayed
+on the page.
+
+","The user\'s name or user-specific information is correctly displayed,
+confirming that the sign-in was successful.
+
+",,,,,,,,,
+TC-99,View Home page,11213069,User Account Management,Active,Avijit Dhar,Low,Functional,Not Automated,"Verify that the home page displays correctly for the user account.
+
+","\- The application should be installed and accessible.- The user must
+have a valid user account.- The user must have internet access to reach
+the application.
+
+",Steps,"Open a web browser.
+
+","The web browser is opened successfully.
+
+","","AI Generated,AI Generated Details","",06/28/2025 06:10:14,Avijit Dhar,06/28/2025 06:13:30,Avijit Dhar,Kolkata Testathon Technicise2025,https://test-management.browserstack.com/projects/2069044/folder/11213069/test-cases/37464723
+,,,,,,,,,,,,"Enter the URL for the <a>https://kolkata.bugbash.live/</a> website in
+the address bar.
+
+","The website\'s homepage loads successfully.
+
+",,,,,,,,,
+,,,,,,,,,,,,"Ensure that all interactive elements on the homepage are functioning
+correctly, such as links and buttons.
+
+","All interactive elements (links and buttons) on the homepage are
+functioning as expected.
+
+",,,,,,,,,

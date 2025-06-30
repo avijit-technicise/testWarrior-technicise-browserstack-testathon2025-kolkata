@@ -1,0 +1,36 @@
+Test Case ID,Title,Folder ID,Folder Path,State,Owner,Priority,Type of Test Case,Automation Status,Description,Preconditions,Template,Steps,Expected Result,Issues,Tags,Attachments,Created At,Created By,Last Updated At,Last Updated By,Project Name,Test Case URL
+TC-102,Filter products based on brand,11213155,Product Browsing & Search,Active,Avijit Dhar,Low,Functional,Not Automated,"Verify that users can successfully filter the product list based on
+selected brands.
+
+","\- User is logged into the system. - User is on the product browsing
+page.
+
+",Steps,"Navigate to the product browsing page
+<a>https://kolkata.bugbash.live/</a>
+
+","The product page is displayed.
+
+","","AI Generated,AI Generated Details","",06/28/2025 06:27:52,Avijit Dhar,06/28/2025 06:32:17,Avijit Dhar,Kolkata Testathon Technicise2025,https://test-management.browserstack.com/projects/2069044/folder/11213155/test-cases/37465041
+,,,,,,,,,,,,"Check if there is a Brand filter option available on the product
+browsing page.
+
+","Filter options are visible on the page.
+
+",,,,,,,,,
+,,,,,,,,,,,,"View the filters available
+
+","Samsung, Apple, Google, Oneplus Filters are displayed
+
+",,,,,,,,,
+,,,,,,,,,,,,"Select the \'Samsung\' filter from the available options.
+
+","The product list is updated to show only products from \""Samsung\"", the
+selected brand.
+
+",,,,,,,,,
+,,,,,,,,,,,,"Check for any error messages or issues on the page after applying the
+filter.
+
+","No error messages are displayed; the page functions correctly.
+
+",,,,,,,,,
