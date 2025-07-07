@@ -1,0 +1,7 @@
+userName: soumyadipdas_N1KkTu
+accessKey: cic6HjnWHgdpaHYZ4hVN
+buildName: "my_build"
+projectName: "New Project"
+CUSTOM_TAG_1: "You can set a custom Build Tag here"
+framework: pytest
+testObservability: true
