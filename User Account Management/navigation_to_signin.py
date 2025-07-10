@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from time import sleep
 
+
 # Configure Chrome options to disable logging
 options = Options()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
