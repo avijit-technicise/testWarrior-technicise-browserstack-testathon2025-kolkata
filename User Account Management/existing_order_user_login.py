@@ -40,7 +40,7 @@ username_dropdown = wait.until(EC.element_to_be_clickable((By.XPATH, "//div[@id=
 username_dropdown.click()
 print("Clicked 'Select Username' dropdown.")
 sleep(1)
-username_text = "existing_order_user" 
+username_text = "existing_orders_user" 
 username_option = wait.until(EC.element_to_be_clickable((By.XPATH, f"//div[contains(@class, 'css-') and text()='{username_text}']")))
 username_option.click()
 print(f"Selected username: {username_text}")
@@ -78,21 +78,18 @@ except Exception as e:
 sleep(3)
 
 
-# Locate all the products in the Favourites page
-ordered_products = driver.find_elements(By.CLASS_NAME, "shelf-item")  
+# Locate all elements that contain the text "Title:"
+# This is a good indicator of an individual product listing
+product_titles = driver.find_elements(By.XPATH, "//*[contains(text(), 'Title:')]")
 
-if ordered_products:
-    print(f"Success: {len(ordered_products)} product(s) found in Favourites.")
-    for product in ordered_products:
-        try:
-            product_title = product.find_element(By.CLASS_NAME, "shelf-item__title").text  
-            print(f"Product found: {product_title}")
-        except Exception as e:
-            print(f"Error: Could not find the title for one of the products. Details: {e}") 
+if product_titles:
+    num_products = len(product_titles)
+    print(f"Success: Found {num_products} product(s) listed on the Orders page.")
+
+    print("Verification successful: Orders exist on the page.")
 else:
-    print("No products found in the Favourites list.")
-
-
+    print("No products found on the Orders page. Verification failed.")
 
 # step 3: Close the driver after testing
 driver.quit()
+print("Automation testing finished.")

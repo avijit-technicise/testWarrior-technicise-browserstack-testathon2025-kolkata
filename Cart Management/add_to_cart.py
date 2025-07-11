@@ -40,7 +40,6 @@ except Exception as e:
 
 # Add to cart by specific product name
 products = driver.find_elements(By.CLASS_NAME, "shelf-item")
-print(type(products))
 product_found = False
 product_name_to_find = "Galaxy S20"
 for product in products:
