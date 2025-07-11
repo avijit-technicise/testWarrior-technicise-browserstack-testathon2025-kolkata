@@ -1,0 +1,59 @@
+Test Case ID,Title,Folder ID,Folder Path,State,Owner,Priority,Type of Test Case,Automation Status,Description,Preconditions,Template,Steps,Expected Result,Issues,Tags,Attachments,Created At,Created By,Last Updated At,Last Updated By,Project Name,Test Case URL
+TC-137,test_check_fav_list,11725913,Automation>test_product_browsing_and_search.py,Active,Soumyadip Das,Medium,Functional,Automated,"Verifies if the products are added to the favourite list
+
+","",Steps,"Find and click on the \""Favourites\"" button from the navigation bar
+
+","The button is found and clicked
+
+","","","",07/11/2025 08:04:15,Soumyadip Das,07/11/2025 08:37:10,Soumyadip Das,New Project,https://test-management.browserstack.com/projects/2087279/folder/11725913/test-cases/38700487
+,,,,,,,,,,,,"Checks for items in the favourite list
+
+","The product is present in the list
+
+",,,,,,,,,
+TC-136,test_add_to_favs,11725913,Automation>test_product_browsing_and_search.py,Active,Soumyadip Das,Medium,Functional,Automated,"Adds the products to the favourite list
+
+","",Steps,"","","","","",07/11/2025 08:04:14,Soumyadip Das,07/11/2025 08:35:28,Soumyadip Das,New Project,https://test-management.browserstack.com/projects/2087279/folder/11725913/test-cases/38700486
+TC-135,test_apply_filter,11725913,Automation>test_product_browsing_and_search.py,Active,Soumyadip Das,Medium,Functional,Automated,"Verifies the functionality of the product filters
+
+","",Steps,"Locate the filter options and click on them as required
+
+","Successfully clicks on filter, and products of only that brand show
+
+","","","",07/11/2025 08:04:14,Soumyadip Das,07/11/2025 08:31:56,Soumyadip Das,New Project,https://test-management.browserstack.com/projects/2087279/folder/11725913/test-cases/38700485
+TC-134,test_sign_in,11725913,Automation>test_product_browsing_and_search.py,Active,Soumyadip Das,High,Security,Automated,"Verifies a successful sign-in operation
+
+","The website is successfully open
+
+",Steps,"Find and click the Sign In button on the Home page
+
+","Sign In button is clicked
+
+","","","",07/11/2025 08:04:14,Soumyadip Das,07/11/2025 08:30:04,Soumyadip Das,New Project,https://test-management.browserstack.com/projects/2087279/folder/11725913/test-cases/38700484
+,,,,,,,,,,,,"Click the Username dropdown and select a username
+
+","The username is selected from the dropdown
+
+",,,,,,,,,
+,,,,,,,,,,,,"Click the Password dropdown and select a username
+
+","The password is selected
+
+",,,,,,,,,
+,,,,,,,,,,,,"Click the Login button
+
+","Login successful, and the Home page is shown with \""log out\"" option
+
+",,,,,,,,,
+TC-133,test_open_website,11725913,Automation>test_product_browsing_and_search.py,Active,Soumyadip Das,Critical,Functional,Automated,"Open the Website Successfully
+
+","",Steps,"Opening a web browser
+
+","Web Browser opened successfully
+
+","","","",07/11/2025 08:04:14,Soumyadip Das,07/11/2025 08:24:48,Soumyadip Das,New Project,https://test-management.browserstack.com/projects/2087279/folder/11725913/test-cases/38700483
+,,,,,,,,,,,,"Opening the Website
+
+","The website launched successfully
+
+",,,,,,,,,
