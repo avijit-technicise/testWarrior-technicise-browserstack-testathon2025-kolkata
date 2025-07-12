@@ -21,7 +21,6 @@ def driver():
 
 print("Automation testing starts")
 
-
 @pytest.mark.order(1)
 def test_open_website (driver):
 
