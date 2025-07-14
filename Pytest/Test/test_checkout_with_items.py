@@ -113,7 +113,7 @@ def test_checkout(driver):
     except Exception as e:
         print(f"Failed during the checkout process. Error: {e}")
 
-    sleep(5) # Give some time 
+    sleep(5) 
 
 
 
