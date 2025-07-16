@@ -5,3 +5,10 @@ projectName: "New Project"
 CUSTOM_TAG_1: "You can set a custom Build Tag here"
 framework: pytest
 testObservability: true
+percy: true
+percyCaptureMode: manual
+debug: true
+networkLogs: true
+consoleLogs: errors
+video: true
+browserstackAutomation: true
